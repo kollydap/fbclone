@@ -1,0 +1,19 @@
+.app{
+  background-color: #f1f2f5;
+  
+}
+.app__body{
+  display: flex;
+}
+  
+  
+Widgets{
+  display: none;
+  background-color: rebeccapurple;
+}
+
+@media screen and (max-width: 799px) {
+  .widgets{
+      display: none;
+  }
+}
